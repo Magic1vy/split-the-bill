@@ -1,0 +1,116 @@
+body{
+    background-image: url(2.jpeg);
+    background-color: #b1aaa4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #b79f887e;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+h1{
+
+    color: #a5dd8f;
+    text-shadow: 1px 1px 2px black, 0 0 1em black; 
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 60px;
+}
+span, .heading{
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 28px;
+    color: #146356;
+    text-shadow: 1px 1px 2px white, 0 0 1em black; 
+    margin-top: 0%;
+}
+.par{
+    display: flex;
+    justify-content: center;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 28px;
+    color: #a5dd8f;
+    text-shadow: 1px 1px 2px black, 0 0 1em black; 
+}
+select{
+    display: none;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px white, 0 0 1em white; 
+    background-color: #FFF1BD;
+    border-radius: 15px;
+    border: none;
+    margin: 20px;
+    box-shadow: 1px 1px 2px black,  0 0 1em black;
+    padding: 7px;
+    color: #146356;
+}
+#bill, #people{
+    font-family: 'Pathway Extreme', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    text-align: right;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px black,  0 0 1em black ;
+    
+}
+#addTip{
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px white, 0 0 1em white; 
+    width: 300px;
+    background-color: #FFF1BD;
+    border-radius: 15px;
+    border: none;
+    margin: 20px;
+    box-shadow: 1px 1px 2px black,  0 0 1em black;
+    padding: 7px;
+    color: #146356;
+}
+#btn{
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px white, 0 0 1em white; 
+    width: 300px;
+    background-color: #a5dd8f;
+    border-radius: 15px;
+    border: none;
+    margin: 20px;
+    margin-top: 0;
+    box-shadow: 1px 1px 2px black,  0 0 1em black;
+    padding: 7px;
+    color: #146356;
+}
+
+.perPerson{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#billSplit, #totalTip, #totalAmound{
+    margin: 15px;
+    padding: 10px;
+    text-shadow: 1px 1px 2px white, 0 0 1em white; 
+    margin-top: 0;
+    box-shadow: 1px 1px 2px black,  0 0 1em black;
+    background-color: #fff1bdc1;
+    border-radius: 15px;
+    
+}
+
+@media all and (max-width: 500px) {
+    h1{
+        font-size: 40px;
+    }
+    #bill, #people{
+        font-size: 30px;
+    }
+    #addTip, #btn{
+        font-size: 30px;
+    }
+}
